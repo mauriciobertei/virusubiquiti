@@ -2,7 +2,7 @@ FILE=/etc/persistent/mf.tar
 
 # Check virus
 if [ -e "$FILE" ] ; then
-    echo "Infected"
+    echo "TEM VIRUS"
     #Acess folder
     cd /etc/persistent
     #Remove the virus
@@ -21,8 +21,8 @@ if [ -e "$FILE" ] ; then
     killall -9 search
     killall -9 mother
     killall -9 sleep
-    echo "Clear Completed"
+    echo "Virus removido"
     reboot
 else
-    echo "Clear"
+    echo "Terminado"
 fi
