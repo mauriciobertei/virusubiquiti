@@ -25,5 +25,4 @@ if [ -e "$FILE" ] ; then
     reboot
 else
     echo "Clear"
-    exit
 fi
